@@ -2,10 +2,15 @@
 using namespace std;
 
 class Mahasiswa{
-    string Nama;
-    string Nim;
+    string nama;
+    string nim;
     public:
     float nilai;
 
-    
-   
+     void printdata(){
+        cout<< " << nim " << endl;
+        cout << " << nama" << endl;
+        cout << " << nilai" << endl;
+    }
+}; //batas class
+
