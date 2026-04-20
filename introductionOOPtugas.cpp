@@ -25,7 +25,12 @@ int main(){
     elektronik.printData();
     cout << endl;
     Barang nonElektronik;
-    
+    nonElektronik.nama = "Meja";
+    nonElektronik.jumlah = 5;
+    nonElektronik.kategori = "Fasilitas";
+    nonElektronik.tanggalProduksi = "10-Januari-2010";
+    nonElektronik.printData();
+}
 
 
 
