@@ -24,6 +24,7 @@ int main(){
     elektronik.tanggalProduksi = "14-Desember-2019";
     elektronik.printData();
     cout << endl;
+    Barang nonElektronik;
     
 
 
