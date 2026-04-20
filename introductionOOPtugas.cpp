@@ -16,5 +16,15 @@ class Barang{
     }
 }; //batas class
 
+int main(){
+    Barang elektronik;
+    elektronik.nama = "Handphone";
+    elektronik.jumlah = 10;
+    elektronik.kategori = "Komunikasi";
+    elektronik.tanggalProduksi = "14-Desember-2019";
+    elektronik.printData();
+    cout << endl;
+    
+
 
 
